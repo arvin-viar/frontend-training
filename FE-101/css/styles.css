@@ -214,10 +214,6 @@ form textarea {
 	display: block;
 	margin-bottom: 5px;
 }
-.review .review-form form input,
-.review .review-form form textarea {
-	max-width: 576px;
-}
 .review .review-form form button[type="submit"]{
 	width: 100%;
 	padding: 8px 10px;
