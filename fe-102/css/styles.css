@@ -78,3 +78,35 @@ footer ul li a {
 .main {
     min-height: 700px;
 }
+
+/* Categories */
+.categories {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.categories ul {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    background: #f1f1f1;
+}
+.categories ul li {
+    display: inline;
+    padding: 0 15px;
+}
+.categories ul li a {
+    color: #333;
+    font-size: 18px;
+}
+.categories ul li a:hover {
+    color: #2b52a0;
+}
+.categories ul li a.active {
+    color: #4b84f3;
+}
+.categories header {
+    margin-bottom: 15px;
+}
+.categories header h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
