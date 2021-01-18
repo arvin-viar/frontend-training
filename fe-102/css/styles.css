@@ -10,8 +10,15 @@ ul, ol, li {
 a {
     text-decoration: none;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
+section {
+    margin-bottom: 30px;
+}
 .container {
-    max-width: 1192px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 form input,
@@ -21,16 +28,18 @@ form textarea {
 	padding: 8px 10px;
 }
 
+/* Header */
 header .main-nav {
 	padding: 10px;
 	background-color: #4b84f3;
 }
 header .main-nav img.logo {
+    display: inline;
 	max-height: 40px;
 	margin-right: 35px;
 }
-header .main-nav ul {
-	float: right;
+header .main-nav nav {
+    float: right;
 }
 header .main-nav ul li {
     display: inline-block;
@@ -49,6 +58,7 @@ header .main-nav ul li:first-child a {
 	border: none;
 }
 
+/* Footer */
 footer {
 	padding: 10px;
 	background-color: #1f2024;
