@@ -165,8 +165,10 @@ form textarea {
 	padding-left: 26px;
 }
 .item .details img {
-	max-height: 200px;
-	margin-bottom: 5px;
+	float: left;
+    max-height: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 .item h2 {
 	margin-bottom: 15px;
@@ -183,6 +185,7 @@ form textarea {
 }
 .item .details > div {
 	margin-bottom: 30px;
+	clear: both;
 }
 .item .details ul {
 	padding-left: 30px;
