@@ -1,432 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Article Browse - FE-202 Journey into Mobile</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="text/css" rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <header>
-            <div class="main-nav">
-                <div class="container">
-                    <img class="main-nav__logo" src="images/gadget-logo-white.png" rel="site logo">
-                    <nav class="main-nav__menu">
-                        <ul class="main-nav__menu-list">
-                            <li class="main-nav__menu-item">
-                                <a href="#">Home</a>
-                            </li>
-                            <li class="main-nav__menu-item main-nav__menu-item--selected">
-                                <a href="#">Articles</a>
-                            </li>
-                            <li class="main-nav__menu-item">
-                                <a href="#">About Us</a>
-                            </li>
-                            <li class="main-nav__menu-item">
-                                <a href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
 
-        <div class="main">
+<head>
+    <title>Article Browse - FE-202 Journey into Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+</head>
 
-            <!-- Categories -->
-            <section class="categories">
-                <header class="categories__header categories__header--cameras">
-                    <div class="container">
-                        <div class="categories__header-wrap">
-                            <div class="categories__header-content">
-                                <h1 class="title">Cameras</h1>
-                                <p class="description">
-                                    Suspendisse congue at nisl id sagittis. Etiam purus odio, pharetra vitae dui finibus, laoreet dignissim libero. 
-                                    Nunc hendrerit eros at gravida vehicula. Morbi molestie diam at sollicitudin porttitor.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-                <nav class="categories__nav">
-                    <div class="container">
-                        <ul class="categories__nav-menu">
-                            <li class="categories__nav-menu-item categories__nav-menu-item--active">
-                                <a href="#">Cameras</a>
-                            </li>
-                            <li class="categories__nav-menu-item">
-                                <a href="#">Laptops</a>
-                            </li>
-                            <li class="categories__nav-menu-item">
-                                <a href="#">PC</a>
-                            </li>
-                            <li class="categories__nav-menu-item">
-                                <a href="#">Gaming Consoles</a>
-                            </li>
-                            <li class="categories__nav-menu-item">
-                                <a href="#">Smartphones</a>
-                            </li>
-                            <li class="categories__nav-menu-item">
-                                <a href="#">Tablets</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </section>
-            <!-- End Categories -->
-
-            <!-- Curated Start -->
-            <section class="curated">
-                <div class="container">
-                    <ul class="curated__list">
-                        <li class="curated__item">
-                            <div class="curated__item-wrap">
-                                <img class="curated__item-image" src="images/compact-cameras.jpg" alt="curate img" />
-                                <div class="curated__item-details">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>
-                                        Etiam purus odio, pharetra vitae dui finibus, laoreet dignissim libero...
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="curated__item">
-                            <div class="curated__item-wrap">
-                                <img class="curated__item-image" src="images/cam-1.jpg" alt="curate img 1" />
-                                <div class="curated__item-details">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>
-                                        Etiam purus odio, pharetra vitae dui finibus, laoreet dignissim libero...
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="curated__item">
-                            <div class="curated__item-wrap">
-                                <img class="curated__item-image" src="images/cam-2.jpg" alt="curate img 2" />
-                                <div class="curated__item-details">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <p>
-                                        Etiam purus odio, pharetra vitae dui finibus, laoreet dignissim libero...
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!-- Curated End -->
-
-            <!-- Content Start -->
-            <section class="articles">
-                <div class="container">
-                    <div class="row">
-                        <header class="articles__header">
-                            <h1>Latest</h1>
-                        </header>
-                        <div class="articles__list">
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p1.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">21</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p2.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">18</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p3.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">15</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p4.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">21</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p5.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">18</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p6.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">18</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p1.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">21</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p2.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">18</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p3.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">15</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p4.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">21</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p5.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">18</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                            <article class="articles__item">
-                                <div class="articles__item-imgwrap">
-                                    <img src="images/cam-p6.jpg" alt="article image 1" />
-                                    <div class="articles__item-posted">
-                                        <div>
-                                            <span class="articles__item-posted-day">18</span>
-                                        </div>
-                                        <div>
-                                            <span class="articles__item-posted-year">2021</span>
-                                        <span class="articles__item-posted-month">January</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="articles__item-details">
-                                    <h1>Lorem ipsum dolor sit amet</h1>
-                                    <p>
-                                        In hac habitasse platea dictumst. 
-                                        Cras imperdiet auctor eros, a mattis neque varius quis. 
-                                        Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="articles__actions">
-                            <button class="btn btn--view-more">View More</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Content End -->
-
-        </div>
-
-        <footer>
+<body>
+    <header>
+        <div class="main-nav">
             <div class="container">
-                <nav class="footer-nav">
-                    <ul class="footer-nav__menu">
-                        <li class="footer-nav__menu-item">
+                <img class="main-nav__logo" src="images/gadget-logo-white.png" rel="site logo">
+                <nav class="main-nav__menu">
+                    <ul class="main-nav__menu-list">
+                        <li class="main-nav__menu-item">
                             <a href="#">Home</a>
                         </li>
-                        <li class="footer-nav__menu-item">
+                        <li class="main-nav__menu-item main-nav__menu-item--selected">
+                            <a href="#">Articles</a>
+                        </li>
+                        <li class="main-nav__menu-item">
                             <a href="#">About Us</a>
                         </li>
-                        <li class="footer-nav__menu-item">
+                        <li class="main-nav__menu-item">
                             <a href="#">Contact Us</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-        </footer>
-    </body>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <!-- Categories -->
+        <section class="categories">
+            <header class="categories__header categories__header--cameras">
+                <div class="container">
+                    <div class="categories__header-wrap">
+                        <div class="categories__header-content">
+                            <h1 class="title">Cameras</h1>
+                            <p class="description">
+                                Suspendisse congue at nisl id sagittis. Etiam purus odio, pharetra vitae dui finibus,
+                                laoreet dignissim libero.
+                                Nunc hendrerit eros at gravida vehicula. Morbi molestie diam at sollicitudin porttitor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <nav class="categories__nav">
+                <div class="container">
+                    <ul class="categories__nav-menu">
+                        <li class="categories__nav-menu-item categories__nav-menu-item--active">
+                            <a href="#">Cameras</a>
+                        </li>
+                        <li class="categories__nav-menu-item">
+                            <a href="#">Laptops</a>
+                        </li>
+                        <li class="categories__nav-menu-item">
+                            <a href="#">PC</a>
+                        </li>
+                        <li class="categories__nav-menu-item">
+                            <a href="#">Gaming Consoles</a>
+                        </li>
+                        <li class="categories__nav-menu-item">
+                            <a href="#">Smartphones</a>
+                        </li>
+                        <li class="categories__nav-menu-item">
+                            <a href="#">Tablets</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <!-- End Categories -->
+
+        <!-- Curated Start -->
+        <section class="curated">
+            <div class="container">
+                <ul class="curated__list">
+                    <li class="curated__item">
+                        <div class="curated__item-wrap">
+                            <img class="curated__item-image" src="images/compact-cameras.jpg" alt="curate img" />
+                            <div class="curated__item-details">
+                                <h3>Lorem ipsum dolor</h3>
+                                <p>
+                                    Etiam purus odio, pharetra vitae dui finibus, laoreet dignissim libero...
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="curated__item">
+                        <div class="curated__item-wrap">
+                            <img class="curated__item-image" src="images/cam-1.jpg" alt="curate img 1" />
+                            <div class="curated__item-details">
+                                <h3>Lorem ipsum dolor</h3>
+                                <p>
+                                    Etiam purus odio, pharetra vitae dui finibus, laoreet dignissim libero...
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="curated__item">
+                        <div class="curated__item-wrap">
+                            <img class="curated__item-image" src="images/cam-2.jpg" alt="curate img 2" />
+                            <div class="curated__item-details">
+                                <h3>Lorem ipsum dolor</h3>
+                                <p>
+                                    Etiam purus odio, pharetra vitae dui finibus, laoreet dignissim libero...
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Curated End -->
+
+        <!-- Content Start -->
+        <section class="articles">
+            <div class="container">
+                <div class="row">
+                    <header class="articles__header">
+                        <h1>Latest</h1>
+                    </header>
+                    <div class="articles__list">
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p1.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">21</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p2.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">18</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p3.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">15</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p4.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">21</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p5.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">18</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p6.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">18</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p1.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">21</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p2.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">18</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p3.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">15</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p4.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">21</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p5.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">18</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item-imgwrap">
+                                <img src="images/cam-p6.jpg" alt="article image 1" />
+                                <div class="articles__item-posted">
+                                    <div>
+                                        <span class="articles__item-posted-day">18</span>
+                                    </div>
+                                    <div>
+                                        <span class="articles__item-posted-year">2021</span>
+                                        <span class="articles__item-posted-month">January</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articles__item-details">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <p>
+                                    In hac habitasse platea dictumst.
+                                    Cras imperdiet auctor eros, a mattis neque varius quis.
+                                    Sed vel dapibus nulla. Nulla ultricies fermentum odio at volutpat.
+                                </p>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="articles__actions">
+                        <button class="btn btn--view-more">View More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content End -->
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="footer-nav__menu-item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="footer-nav__menu-item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
 </html>
