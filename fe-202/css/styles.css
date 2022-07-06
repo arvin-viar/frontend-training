@@ -515,6 +515,7 @@ Articles - Categories
 
 
 
+
 /*-------------------------
 Responsive
 -------------------------*/
@@ -565,6 +566,11 @@ Responsive
     .browse__item {
         width: 50%;
         min-height: 630px;
+    }
+
+    /* Article */
+    .article {
+        padding: 25px 0px;
     }
 }
 @media only screen and (max-width: 700px) {
@@ -648,6 +654,10 @@ Responsive
     .browse__header-options select {
         width: 100%;
         margin: 0 15px 0 0;
+    }
+    .browse__item {
+        width: 100%;
+        min-height: unset;
     }
     .browse__item {
         width: 100%;
